@@ -1,0 +1,26 @@
+@media screen and(max-width: 768px) {
+    .nav-container{
+        display: none;
+    }
+    .navclose{
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .brand-name{
+        display: none;
+    }
+    .search-area{
+        display: none;
+    }
+    .search-area2{
+        display: block;
+    }
+    
+}
+
+.search-area2{
+    display: none;
+}

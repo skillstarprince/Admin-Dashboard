@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  font-awesome stylesheet link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./Dashboard.css">
+    <link rel="stylesheet" href="./Responsive.css"
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo"> 
+            <span class="brand-name"> Sample Dashboard</span>
+            <!-- class for font-awesome icon -->
+            <i class="fas fa-bars logo-icon"></i>
+        </div>
+        <div class="search-area"> 
+            <input type="text" name="search" class="search-input">
+            <button class="search-btn"><i class="fas fa-search search-btn-icons"></i></button>
+        </div>
+        <div class="notification"> 
+            <div class="red-circle"></div>
+            <!--font-awesome icons -->
+            <i class="fas fa-bell"></i>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div class="nav-container">
+            <nav class="nav">
+                <div class="nav-option option1">
+                    <i class="fas fa-tachometer"></i>
+                    <h3>Dashboard</h3>
+                </div>
+                <div class="nav-option option2">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Article</h3>
+                </div>
+                <div class="nav-option option3">
+                    <i class="fas fa-map"></i>
+                    <h3>Report</h3>
+                </div>
+                <div class="nav-option option4">
+                    <i class="fas fa-institution"></i>
+                    <h3>Institution</h3>
+                </div>
+                <div class="nav-option option5">
+                    <i class="fas fa-gear"></i>
+                    <h3>Setting</h3>
+                </div>
+                <div class="nav-option option6">
+                    <i class="fas fa-power-off"></i>
+                    <h3>Log Out</h3>
+                </div>
+            </nav>
+        </div>
+        <!--Main Content-->
+        <div class="main">
+
+            <div class="search-area2"> 
+                <input type="text" name="search" class="search-input">
+                <button class="search-btn"><i class="fas fa-search search-btn-icons"></i></button>
+            </div>
+            <div class="box-container">
+                
+                <div class="box box1">
+                    <div class="text" >
+                        <h2>100k </h2>
+                        <p>Views</p>
+                    </div>
+                    <i class="fas fa-eye"></i>
+                </div>
+                <div class="box box2">
+                    <div class="text" >
+                        <h2>6700 </h2>
+                        <p>Likes</p>
+                    </div>
+                    <i class="fas fa-thumbs-up"></i>
+                </div>
+                <div class="box box3">
+                    <div class="text" >
+                        <h2>1200 </h2>
+                        <p>Comments</p>
+                    </div>
+                    <i class="fas fa-commenting"></i>
+                </div>
+                <div class="box box1">
+                    <div class="text" >
+                        <h2>200 </h2>
+                        <p>Published</p>
+                    </div>
+                    <i class="fas fa-folder-open"></i>
+                </div>
+                
+            </div>
+
+            <div class="report-container">
+                <div class="report-header">
+                    <h2 class="recent-article">Recent Article</h2>
+                    <button class="view">View</button>
+                </div>
+                <div class="report-body">
+                    <div class="report-topic-heading">
+                        <h3 class="t-op">Article</h3>
+                        <h3 class="t-op">Views</h3>
+                        <h3 class="t-op">Comments</h3>
+                        <h3 class="t-op">Status</h3>
+                    </div>
+                    <div class="items">
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 73</h3>
+                            <h3 class="t-op-nextlvl">2.9k</h3>
+                            <h3 class="t-op-nextlvl">210</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">Published</h3>
+                        </div>
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 87</h3>
+                            <h3 class="t-op-nextlvl">2.4k</h3>
+                            <h3 class="t-op-nextlvl">213</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">Published</h3>
+                        </div>
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 67</h3>
+                            <h3 class="t-op-nextlvl">2k</h3>
+                            <h3 class="t-op-nextlvl">200</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">Published</h3>
+                        </div>
+                        <div class="item1">
+                            <h3 class="t-op-nextlvl">Article 63</h3>
+                            <h3 class="t-op-nextlvl">2.8k</h3>
+                            <h3 class="t-op-nextlvl">230</h3>
+                            <h3 class="t-op-nextlvl lavel-tag">Published</h3>
+                        </div>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Dashboard.js"></script>
+</body>
+</html>
